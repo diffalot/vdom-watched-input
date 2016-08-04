@@ -26,5 +26,8 @@
   "homepage": "https://github.com/diffalot/vdom-watched-input#readme",
   "devDependencies": {
     "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "virtual-dom": "^2.1.1"
   }
 }
