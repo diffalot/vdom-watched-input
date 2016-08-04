@@ -4,7 +4,8 @@
   "description": "helper that create virtual-dom input widgets that call a funtion when input changes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/diffalot/vdom-watched-input/issues"
   },
-  "homepage": "https://github.com/diffalot/vdom-watched-input#readme"
+  "homepage": "https://github.com/diffalot/vdom-watched-input#readme",
+  "devDependencies": {
+    "standard": "^7.1.2"
+  }
 }
