@@ -3,7 +3,7 @@
 var h = require('virtual-dom/h')
 var createElement = require('virtual-dom/create-element')
 
-var InputChange = require('./lib/input-change')
+var EventListener = require('vdom-event-listener')
 
 var Input = function (fn, options, listener) {
   this.fn = fn
@@ -13,7 +13,7 @@ var Input = function (fn, options, listener) {
 Input.prototype.type = 'Widget'
 Input.prototype.init = function () {
   var options = this.options
-  options['input-change'] = new InputChange(this.fn, this.listener)
+  options['input-change'] = new EventListener(this.fn, this.listener)
   return createElement(h('input', options))
 }
 Input.prototype.update = function () {
