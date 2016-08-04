@@ -1,0 +1,26 @@
+{
+  "name": "vdom-watched-input",
+  "version": "0.0.0",
+  "description": "helper that create virtual-dom input widgets that call a funtion when input changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diffalot/vdom-watched-input.git"
+  },
+  "keywords": [
+    "virtual-dom",
+    "widget",
+    "vdom",
+    "input",
+    "event"
+  ],
+  "author": "Andrew Davis <diffalot@diff.mx>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diffalot/vdom-watched-input/issues"
+  },
+  "homepage": "https://github.com/diffalot/vdom-watched-input#readme"
+}
