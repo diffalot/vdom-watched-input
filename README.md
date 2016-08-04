@@ -4,7 +4,7 @@ Creates an input widget that passes events to a function of your choice
 
 # Usage
 
-```
+```javascript
 const h = require('virtual-dom/h')
 
 const Input = require('vdom-watched-input')
