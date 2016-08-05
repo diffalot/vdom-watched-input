@@ -28,7 +28,7 @@
     "standard": "^7.1.2"
   },
   "dependencies": {
-    "vdom-event-listener": "0.0.1",
+    "vdom-event-listener": "0.0.2",
     "virtual-dom": "^2.1.1"
   }
 }
