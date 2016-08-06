@@ -1,6 +1,6 @@
 {
   "name": "vdom-watched-input",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "helper that creates virtual-dom input widgets that call a funtion when input changes",
   "main": "index.js",
   "scripts": {
